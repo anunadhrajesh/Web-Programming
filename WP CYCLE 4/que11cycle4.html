@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Change the Background Color with JavaScript</title>
+<script type="text/javascript" src="https://gc.kis.v2.scr.kaspersky-labs.com/FD126C42-EBFA-4E12-B309-BB3FDD723AC1/main.js?attr=trzRM2NfNCJ2OttcPWGxq-mEH54ikYcKJBn6Wh60kYPpxZf4YZHnWfGHdPKmZiCelTyV4fdlMBfEDHyxyWj9YU3-2v91VDajZhqt8PHDfIIfenPTH-FtoiZM1kTZeUqGhe_4DKS2yQo3_XjtzepOAPH5rBh_GZPNhR11BmO96cLaOta1TOzohpXEvwmE3Io7roSjp8OUtdXrxedOqdpPO9nPOG0MAOABE4VV7FWXy0zc0JSrA4RUIzQLlG8mTZUEoDHwwi_UgafhvqDJkMyTaQCN5GrRkwWYl_ypIJBSXWsQRWsti0-PPK1a8MEX2hWzapLuski5gVMQsOdaPwrQjGRNzklbs7GVli72vv9GAUCoFaqnWIuUfxs-wNDUcXUZM7zGZ0pAIw_pqf0vP-SoHtI-Dl8pGqDnrJmoSZBnvSOVWs6VcpSdzH7ZMiM-YYr8lFDqyBzeVV2sj-jk-V0Fqs4ay2kZr_0-tvs6Eb8js9XZvzx7pN3fkpemt9IRK1_wlQShjd-O_9-Hg0oGmKOfKpd2lGkuxLV5SoZDAzasop8yiFsSx_MCECRyJCk7vvaXCXF_URdZRuLpPaIjhU-q7QdgNaVMwMGdj16niBJxYX3aehOfpJriZVWT4G5nSBGLHDmBT6i9Cdn3AZ3KNzcnb6IG4E-9GCkDRF66k2WWHMv7tv78dabD2BBbTHeq4GgjFdTtajVMuXPywOnjt71-wl8yTfKjN4u3dT_FAqp7nPfxydbSwvN7ejVzBzCaVrHPT7y7esYhSUbtdnR7ZIqxEbicdyqP7_WcyrVmytr71kzPW53pvvt4w8V6g1zpsYZxxqxEF2-qe0IcRxRermDVKwtP277nPtkULyLT0N0CNxEjVeiw6ixk9Zbt8hVEPNatueNHrmcd1yvg4vS_rCWpic6d4uYEWia8vaBJCgWm1Y0n58ABFryVpBrBlFbGjMvTXrJXE_kF8LG84mfRIDqZfDh-5zZaeC-PO_3coB2_-WsbXCqKsNZ76Uqv5TvXbpwdr78YGaM8A_U_ca3saoEVpdxV-Xy0OtpCSO5yKp8CYhZC41VNWxe0KamJpJJb9FScg7dFeS_RjiQ01m_kcen1td9oehBBvw12eqVKVnXQ7xYqKc9dQQysKTCSD-92CFEmwgbqcyh8NdEdCov-pwhcLNMgf3z_HD40AGd-5wkm0OtF9ToCfgbopwTypdBdREznfiQfpYwTFpy1z9kzUkwxNw" nonce="d8c7d39ccc952d9a2b839af6be5522d5" charset="UTF-8"></script><script>
+    // Function to change webpage background color
+    function changeBodyBg(color){
+        document.body.style.background = color;
+    }
+    
+    // Function to change heading background color
+    function changeHeadingBg(color){
+        document.getElementById("heading").style.background = color;
+    }
+</script>
+</head>
+<body>
+    <h1 id="heading">This is a heading</h1>
+    <p>This is a paragraph of text.</p>
+    <hr>
+    <div>
+        <label>Change Webpage Background To:</label>
+        <button type="button" onclick="changeBodyBg('yellow');">Yellow</button>
+        <button type="button" onclick="changeBodyBg('lime');">Lime</button>
+        <button type="button" onclick="changeBodyBg('orange');">Orange</button>
+    </div>
+    <br>
+    <div>
+        <label>Change Heading Background To:</label>
+        <button type="button" onclick="changeHeadingBg('red');">Red</button>
+        <button type="button" onclick="changeHeadingBg('green');">Green</button>
+        <button type="button" onclick="changeHeadingBg('blue');">Blue</button>
+    </div>
+</body>
+</html>
